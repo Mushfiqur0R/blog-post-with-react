@@ -1,12 +1,12 @@
 
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>      
-      <h1 className='text-3xl'>Vite + React</h1>
-      <button class="btn btn-outline btn-secondary">Secondary</button>
+      <Home></Home>
     </>
   )
 }
